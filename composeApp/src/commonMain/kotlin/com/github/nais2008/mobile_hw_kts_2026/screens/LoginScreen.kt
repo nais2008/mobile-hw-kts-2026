@@ -37,7 +37,6 @@ fun LoginScreen(
             value = login,
             onValueChange = { login = it },
             label = { Text("login") },
-            placeholder = { Text("your login") },
             modifier = Modifier.fillMaxWidth(),
             singleLine = true,
             keyboardOptions = androidx.compose.foundation.text.KeyboardOptions(
@@ -52,7 +51,6 @@ fun LoginScreen(
             value = password,
             onValueChange = { password = it },
             label = { Text("password") },
-            placeholder = { Text("your password") },
             modifier = Modifier.fillMaxWidth(),
             singleLine = true,
             visualTransformation = PasswordVisualTransformation(),
